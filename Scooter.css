@@ -1,0 +1,71 @@
+body{
+  background-image: url("background.jpg");
+  color: white;
+  background-size: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container{
+  width: 60%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.logo{
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-text{
+  font-size: 25 px;
+  color: #83f52c;
+  text-align: center;
+}
+
+nav{
+  background-color: #83f52c;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.monopattino1, .monopattino2, .monopattino3{
+  margin-left: 15%;
+  padding-top: 20px
+}
+
+.proprietario{
+  font-size: 25px;
+}
+
+.posizione, .carica{
+  font-size: 20px;
+}
+
+.perc1, .perc2, .perc3{
+  height: 30px;
+}
+
+.perc1{
+width:300px;
+background-color:#f30;
+}
+
+.perc2{
+  width: 400px;
+  background-color: yellow;
+}
+
+.perc3{
+  width: 200px;
+  background-color: pink;
+}
+
+.container, .perc1, .perc2, .perc3{
+  border-radius: 6%;
+}
